@@ -1,6 +1,8 @@
 // https://nuxt.com/docs/api/configuration/nuxt-config
 // @ts-ignore
+import { defineNuxtConfig } from 'nuxt3'
 export default defineNuxtConfig({
+  target: 'static',
   pages: true,
   devtools: { enabled: true },
   modules: [
